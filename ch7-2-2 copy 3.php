@@ -5,18 +5,14 @@
    <title>ch7-2-2.php</title>
 </head>
 <body>
+   <h2>sID:C112181116<br>
+   name:徐詩雅</h2>
    <?php 
-      $weekday = array( 1=>"Mon",
-                           "Tue", 
-                           "Wed",
-                           "Thu",
-                           "Fri",
-                           "Sat",
-                           "Sun");
-      for ( $i = 1; $i <= count($weekday); $i++ )
-         echo "$i : $weekday[$i]<br>";
-      echo "<br/>";
+      $arr["color"] = "紅色";
+      $arr["name"] = "徐詩雅";
+      $arr["shape"] = "圓形";
+      foreach($arr as $key=>$value)
+         echo "$key => $value <br>";
    ?>
 </body>
-</html>
 </html>
