@@ -13,6 +13,7 @@
       $arr["shape"] = "圓形";
       foreach($arr as $key=>$value)
          echo "$key => $value <br>";
+      print_r($arr);
    ?>
 </body>
 </html>
